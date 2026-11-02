@@ -217,7 +217,7 @@ scaling (including the longest JellyHop variant), and the upgrade test was repea
 `--autostart on|off` is passed. The Windows-only parts (Task Scheduler, the network type
 change through WMI or Network List Manager) can't run there and need the checks below.
 
-JellyScale has **not** yet run on real Windows, so treat this as a test build. On a spare PC:
+JellyScale has been tested on real Windows by the author. If you hit a problem, please open an Issue. The checklist below covers the main things verified:
 
 - Cancel setup before installing: no app, firewall or power changes.
 - Install with no Caddy on the PC (WinGet download) and with Caddy already on PATH.
